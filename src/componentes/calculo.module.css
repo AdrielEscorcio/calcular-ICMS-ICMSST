@@ -1,0 +1,68 @@
+.principal {
+    border: solid 1px transparent;
+    min-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.principal input {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    padding: 3px;
+    border-radius: 5px;
+    border: solid 0.5px #d3d3d3;
+}
+
+.resultados {
+    min-width: 410px;
+}
+
+.resultados p {
+    margin: 15px;
+}
+
+.resultados strong {
+    font-size:  2rem;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    border: transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+.buttonCalcular {
+    background-color: #2563EB;
+    color: white;
+}
+
+.buttonLimpar {
+    background-color: #D1D5DB;
+    color: black;
+}
+
+.buttonCalcular:hover {
+    background-color: #0056B3;
+}
