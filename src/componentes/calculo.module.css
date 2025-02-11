@@ -27,6 +27,9 @@ input {
     border: solid 0.5px #d3d3d3;
 }
 
+input:hover {
+    border: solid 0.5px #2563EB;
+}
 .resultados {
     min-width: 410px;
 }
