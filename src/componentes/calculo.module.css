@@ -25,10 +25,15 @@ input {
     padding: 3px;
     border-radius: 5px;
     border: solid 0.5px #d3d3d3;
+    outline: none;
 }
 
 input:hover {
-    border: solid 0.5px #2563EB;
+    border: solid 1px #2563EB;
+}
+
+input:focus {
+    border: solid 1px #2563EB;
 }
 .resultados {
     min-width: 410px;
